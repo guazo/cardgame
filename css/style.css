@@ -29,11 +29,12 @@
     margin-bottom: 5px;
     font-size: 1.5rem;
     color: #ffffff;
+    max-height: 8vw; /* Altura ajustada automáticamente */
   }
   .card-image {
     border-radius: 10px; /* Bordes redondeados */
-    max-width: 12vw; /* Ocupa el 25% del ancho de la pantalla visible */
-    max-height: 12vw; /* Altura ajustada automáticamente */
+    max-width: 8vw; /* Ocupa el 25% del ancho de la pantalla visible */
+
     position: relative;
     left: 9vw;
     margin-left: -5vw;
