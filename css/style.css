@@ -1,0 +1,41 @@
+.game-title {
+    text-align: center;
+    margin-top: 5x;
+    margin-bottom: 7px;
+    font-size: 2.5rem;
+    color: #007bff;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  }
+  body{
+    background: linear-gradient(135deg, #00783e, #21593e);
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+
+  .btn-blackjack:hover {
+    background-color: #212529;
+    border-color: #212529;
+    color: #ffffff;
+  }
+
+  .btn-blackjack:focus,
+  .btn-blackjack.focus {
+    box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+  }
+
+  .player-info {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+  .card-image {
+    border-radius: 10px; /* Bordes redondeados */
+    max-width: 12vw; /* Ocupa el 25% del ancho de la pantalla visible */
+    max-height: 12vw; /* Altura ajustada automáticamente */
+    position: relative;
+    left: 9vw;
+    margin-left: -5vw;
+    border: gray 1px solid;
+  }
